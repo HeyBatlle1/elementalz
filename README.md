@@ -48,8 +48,8 @@ Installation
 Clone the repository:
 bash
 
-git clone https://github.com/your-username/interactive-periodic-table.git
-cd interactive-periodic-table
+git clone https://github.com/heybattle1/elementalz
+
 
 Install dependencies:
 bash
