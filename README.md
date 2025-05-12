@@ -1,9 +1,9 @@
 Interactive Periodic Table with AI Chemistry Assistant
-This project is an interactive periodic table designed for educational use in schools. Each element tile is dynamic—clicking or tapping a tile connects to Google’s Gemini 2.0 Pro model via the A2A protocol, providing detailed explanations about the element. Students can ask follow-up questions and engage with a state-of-the-art AI model as much as they need. The AI has been fine-tuned with a custom temperature setting and prompted to guard against jailbreaks, ensuring safety for school environments.
+This project is an interactive periodic table designed for educational use in schools. Each element tile is dynamic—clicking or tapping a tile connects to qwen/qwen-2.5-72b-instruct model via the A2A protocol, providing detailed explanations about the element. Students can ask follow-up questions and engage with a state-of-the-art AI model as much as they need. The AI has been fine-tuned with a custom temperature setting and prompted to guard against jailbreaks, ensuring safety for school environments.
 Features
 Interactive Periodic Table: Click any element tile to learn about it via an AI-powered chemistry assistant.
 
-AI Integration: Powered by Google’s Gemini 2.0 Pro model with A2A protocol for real-time, conversational learning.
+AI Integration: Powered by qwen/qwen-2.5-72b-instruct model with A2A and MCP capabilities protocol for real-time, conversational learning.
 
 Student-Friendly: Students can ask unlimited follow-up questions, with the AI tailored for educational use and safety.
 
@@ -26,7 +26,7 @@ Animation: Framer Motion for smooth transitions and effects.
 
 Database/Backend: Supabase for lightweight data management.
 
-AI Integration: Google Gemini API for the chemistry assistant.
+AI Integration: qwen/qwen-2.5-72b-instruct for the chemistry assistant.
 
 Icons: Lucide React for clean, scalable SVG icons.
 
@@ -42,7 +42,7 @@ npm or yarn
 
 A Supabase account and project for backend setup
 
-Google Gemini API key for AI integration
+OpenRouter API and Open Ai end points and SDK
 
 Installation
 Clone the repository:
