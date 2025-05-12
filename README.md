@@ -1,4 +1,4 @@
-Interactive Periodic Table with AI Chemistry Assistant
+Interactive Periodic Table with AI Chemistry Assistant 
 This project is an interactive periodic table designed for educational use in schools. Each element tile is dynamic—clicking or tapping a tile connects to qwen/qwen-2.5-72b-instruct model via the A2A protocol, providing detailed explanations about the element. Students can ask follow-up questions and engage with a state-of-the-art AI model as much as they need. The AI has been fine-tuned with a custom temperature setting and prompted to guard against jailbreaks, ensuring safety for school environments.
 Features
 Interactive Periodic Table: Click any element tile to learn about it via an AI-powered chemistry assistant.
@@ -71,7 +71,7 @@ bash
 
 npm run dev
 
-Open http://localhost:3000 to view the app.
+Open http://HayHuntDB.online for the function version
 
 Build for production (static export):
 bash
