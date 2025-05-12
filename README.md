@@ -89,7 +89,7 @@ Ensure your Supabase backend and Gemini API are accessible in production.
 Usage
 Navigate the periodic table and click on any element tile.
 
-The AI assistant (powered by Gemini 2.0 Pro) will provide a detailed explanation of the element.
+The AI assistant qwen/qwen-2.5-72b-instruct will provide a detailed explanation of the element.
 
 Students can ask follow-up questions in a conversational format.
 
